@@ -19,11 +19,127 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#goesTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#goesTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#School"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#hasAcademy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#hasAcademy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#School"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#Academy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#hasMinistry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#hasMinistry">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#School"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#Ministry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#hasStudiedAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#hasStudiedAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#School"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#hasWorkedAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#hasWorkedAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#School"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#isLinkedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#isLinkedTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#School"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#School"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#worksAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#worksAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#Employee"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#School"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Data properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#IDstudent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#IDstudent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#UAI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#UAI"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#acronym -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#acronym"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#address"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#borough -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#borough"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#city -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#city"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#email"/>
     
 
 
@@ -36,6 +152,42 @@
     <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#longitude -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#longitude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#nationality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#nationality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#region -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#region"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#salary -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#salary"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#schoolType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#schoolType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#siret -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#siret"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#telephone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#telephone"/>
     
 
 
@@ -83,6 +235,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#Employee">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#salary"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#Student"/>
     </owl:Class>
     
@@ -117,6 +275,54 @@
     <!-- http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#Person -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#Person">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#address"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#city"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#email"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#nationality"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#telephone"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/age"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/firstName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/lastName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#School"/>
     </owl:Class>
     
@@ -152,6 +358,61 @@
     <owl:Class rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#School">
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#UAI"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#acronym"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#borough"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#city"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#region"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#schoolType"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#siret"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#telephone"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#address"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#latitude"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -164,6 +425,13 @@
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -172,6 +440,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#Student">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brice/ontologies/2022/2/TheOntology#IDstudent"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
 </rdf:RDF>
 
